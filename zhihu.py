@@ -2,6 +2,8 @@
 # -*-coding: utf-8-*-
 '''
 '''
+__author__ = 'gun.jiang@qq.com'
+'testing for github 2017-10-21'
 
 import json
 import random
@@ -112,9 +114,9 @@ if __name__ == '__main__':
         print('pls input which explorer (qq/ch)!')
         sys.exit(0)
         
-    h_type = sys.argv[1]    
+    head_type = sys.argv[1]    
         
-    zh = Zhihu(h_type)
+    zh = Zhihu(head_type)
     #zh.start_topic()
     #zh.start_question()
     zh.start_answer()
